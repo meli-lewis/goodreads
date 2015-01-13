@@ -10,3 +10,7 @@ My hunch is that this is a workaround Goodreads implemented because ISBNs are ty
 2. Bookshelf column composed of greater than one value
 
 Let me know what might be a more elegant solution, but I made a second table to pull the bookshelf tags from the first so each tag might have its own row, with ISBN13 as its key. A couple of values in my dataset may be null because an ISBN13 value was not included, which I think is just a data problem on Goodreads' side, but perhaps you won't have that issue.
+
+3. Formatted full dates to Pandas datetime objects
+
+Not sure if this is everyone's favorite format, but this would be helpful for studying patterns over time. Changed the format on Date Added, Date Read, and Original Purchase Date.
