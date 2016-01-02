@@ -1,6 +1,15 @@
 Goodreads Transformation
 =========
 
+To use this notebook you must have Python 3 and Jupyter Notebook on your system. If you already use the IPython Notebook, updating should be easy.
+
+If this ever gets more complicated I'll upload a Requirements file, but for now:
+
+```bash
+$ pip3 install jupyter
+$ pip3 install pandas
+```
+
 The purpose of this notebook is both to make the CSV one exports from Goodreads more amenable to analysis. I've only addressed the two most obvious issues so far, and invite anyone interested to help me make this even better!
 
 1. ISBNs written as formulae
